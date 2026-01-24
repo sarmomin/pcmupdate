@@ -1,0 +1,457 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .main-menu ul.nav.navbar-nav li a {
+        padding: 25px 12px;
+    }
+    .is-sticky .main-menu ul.nav.navbar-nav li a {
+        padding: 25px 12px;
+    }
+    .team-social-area {
+	    padding: 15px 0;
+    }
+    .single-food-carousel h5 {
+        font-size: 16px;
+    }
+    .single-food-carousel h4 {
+        font-size: 17px;
+    }
+    .food-carusel-price {
+        padding: 10px 8px;
+        font-size: 18px;
+    }
+    .pcsp-list p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .paninis-offer-area h4 {
+        font-size: 20px;
+        margin: 10px;
+        padding: 6px;
+    }
+    
+    .paninis-offer-area::before {
+        font-size: 35px;
+        margin-left: -25px;
+        font-weight: 700;
+    }
+    .pcsp-section-title {
+        padding: 10px 25px;
+        font-size: 25px;
+    }
+    .single-food-item-tagline {
+        padding: 14px 0;
+    }
+    .single-food-carousel-wrapper {
+        margin-top: 25px;
+    }
+    .paninis-items {
+        margin-top: 25px;
+        padding: 35px;
+    }
+    .desserts-content h2 {
+        font-size: 25px;
+    }
+    .cold-drinks-content img {
+        max-width: 68px;
+    }
+    #map-small {
+        height: 550px;
+    }
+    .section-title {
+        font-size: 30px;
+    }
+    .call-us-content h2 {
+        font-size: 24px;
+    }
+    
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 15px;
+    }
+    .section-title {
+	    font-size: 20px;
+    }
+    .footer-widget h2 {
+	    font-size: 20px;
+    }
+    .pizza-grid {
+        display: block;
+    }
+    .single-food-menu-item h3 {
+	    font-size: 13px;
+    }
+    .single-testimonial-item p {
+	    padding: 0 10px;
+    }
+    .special-items, .testimonial-items {
+	    padding: 45px 15px;
+    }
+    .navbar-header {
+        padding: 10px;
+        margin: 0 10px;
+    }
+    .navbar-toggle {
+        float: inherit;
+    }
+    .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .top-social-area {
+        display: none;
+    }
+    .is-sticky .top-social-area {
+        padding: 15px;
+    }
+    .transparent-btn {
+        padding: 10px 20px;
+        text-transform: uppercase;
+        margin: 10px;
+    }
+    #main-carousel .slide-control {
+        display: none;
+    }
+    .pcsp-section-title {
+        margin: 0 !important;
+        padding: 10px;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 0;
+    }
+    .single-food-item-tagline {
+        display: none !important;
+    }
+    .single-food-carousel-wrapper .owl-controls .owl-nav i.fa {
+        font-size: 30px;
+        width: 30px;
+        height: 40px;
+        line-height: 38px;
+    }
+    .single-food-carousel-wrapper .owl-controls .owl-nav i.fa.fa-angle-left {
+        margin-left: -15px;
+    }
+    .single-food-carousel-wrapper .owl-controls .owl-nav i.fa.fa-angle-right {
+	    margin-right: -15px;
+    }
+    .scroll-up-content {
+        display: none !important;
+    }
+    .paninis-offer-area img {
+        max-height: 100px;
+        margin: 0 2px;
+    }
+    .paninis-offer-area h4 {
+        font-size: 20px;
+    }
+    .pcsp-price-tag {
+        padding: 10px;
+        font-size: 30px;
+        font-weight: normal;
+        box-shadow: none;
+    }
+    .paninis-offer-area::before {
+        font-weight: normal;
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 30px;
+    }
+    .paninis-price-area {
+        padding: 0;
+        margin: 5px 0;
+    }
+    .lasagnes-details, .crog-details {
+        padding: 45px 10px 30px;
+    }
+    .lasagnes-details img, .crog-details img {
+        max-height: 100px;
+        margin: 0 5px;
+    }
+    .lasagnes-details i.fa, .crog-details i.fa {
+        font-size: 25px;
+        padding: 1px;
+    }
+    .lasagnes-details h4, .crog-details h4 {
+        margin: 2px;
+        display: inline-block;
+        padding: 5px 10px;
+        font-weight: 300;
+    }
+    .desserts-content h2 {
+        font-size: 25px;
+    }
+    .desserts-details img, .glaces-details img {
+        max-width: 120px;
+    }
+    .cold-drinks-content img {
+        max-width: 40px;
+    }
+    .google-map-small {
+        display: none;
+    }
+    .call-us-content h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+    .call-us-content i.fa {
+        font-size: 22px;
+    }
+    h4.call-us-number {
+        font-size: 22px;
+    }
+    .section-title {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .single-food-menu-item h3 {
+        font-size: 17px;
+    }
+    #map {
+        height: 250px;
+    }
+    .is-sticky .header-area {
+        padding: 0;
+    }
+    .logo-area {
+        padding: 5px;
+    }
+    .is-sticky .logo-area {
+        padding: 5px;
+        background: #f00;
+    }
+    .logo-area img {
+        max-height: 60px;
+    }
+    .is-sticky .logo-area img {
+        max-width: 80px;
+    }
+    .main-menu ul.nav.navbar-nav {
+        text-align: center;
+    }
+    .main-menu ul.nav.navbar-nav li {
+        display: block;
+    }
+    .main-menu ul.nav.navbar-nav li a {
+        padding: 5px;
+        border-bottom: 1px solid #dfdfdf;
+        border-radius: unset;
+        background: #333;
+        font-size: 16px;
+    }
+    .is-sticky .main-menu ul.nav.navbar-nav li a {
+        padding: 5px;
+    }
+    .lasagnes-wrapper {
+        margin-bottom: 80px;
+    }
+    .pcsp-section-title-2 {
+        margin-left: 0;
+        padding: 10px;
+    }
+    .lasagnes-details .pcsp-price-tag, .crog-details .pcsp-price-tag {
+        padding: 7px 10px;
+        font-size: 25px;
+    }
+    .lasagnes-details, .crog-details {
+        background-size: contain;
+        background-position: top right;
+    }
+    .footer-bottom-content p {
+        font-size: 13px;
+    }
+    .callus-btn {
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .callus-btn i.fa {
+        padding: 0;
+    }
+    .pcsp-section-title-2 h2 {
+        font-size: 25px;
+    }
+    .lasagnes-title, .crog-title {
+        width: 190px;
+    }
+    .footer-bottom-content p {
+        line-height: 1;
+    }
+    .pcm-section-title h2 {
+        font-size: 17px;
+        line-height: 30px;
+        padding: 0 10px;
+    }
+    .pcm-section-title, .halal-content {
+        padding-bottom: 25px;
+    }
+    .maxi-coke-content {
+        padding: 30px 0;
+    }
+    .maxi-coke-content img {
+        max-width: 250px;
+    }
+    .five-euro-content img.five-euro-pic {
+        max-width: 120px;
+    }
+    .five-euro-content img.pasta-pic {
+        max-width: 90px;
+    }
+    .single-food-menu-item {
+        margin: 40px 5px;
+    }
+    .single-food-menu-item img {
+        max-width: 80px !important;
+    }
+    .pcsp-list p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .lasagnes-details h3, .crog-details h3 {
+        line-height: 30px;
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .product-list-details {
+        padding: 30px 10px 30px 20px;
+        display: block;
+        border-top-left-radius: unset;
+        border-top-right-radius: unset;
+    }
+    .product-list-title h2 {
+        text-align: center;
+    }
+    .form-area button[type="submit"] {
+        padding: 10px 20px;
+    }
+    .product-list-left, .product-list-right {
+        max-width: 100%;
+    }
+    .product-category-tagline {
+        display: none;
+    }
+    .product-list-title {
+        padding: 20px 10px;
+    }
+    .salade-bg, .gratins-bg, .pates-bg, .panizzas-bg {
+        background-position: top right;
+    }
+    .single-food-menu-item-popup-box-close i.fa {
+        padding: 10px;
+        font-size: 18px;
+    }
+    .single-food-menu-item-popup-box {
+        max-width: 85%;
+    }
+    .single-food-menu-item-popup-box-title {
+        padding: 15px 0;
+    }
+    .popup-box-title {
+        font-size: 18px;
+    }
+    .popup-box-h4 {
+        padding: 10px 0;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .popup-box-price-tag {
+        padding: 5px;
+    }
+    a.product-load-more {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+    .footer-bottom-sticky-menu-area {
+        bottom: 0;
+    }
+    .footer-bottom-sticky-menu-content div {
+        width: 31%;
+        margin: 5px auto;
+    }
+    span.footer-bottom-sticky-menu-span {
+        padding: 5px 0;
+    }
+    .footer-bottom-sticky-menu-content i.fa {
+        margin-left: 4px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .footer-bottom-area {
+        margin-bottom: 38px;
+    }
+    .pizza-base-tomate-content h2.section-title {
+        margin-bottom: 30px;
+    }
+    span.dual-price-tag {
+        padding: 7px 15px;
+        font-size: 20px;
+        margin: 7px;
+        box-shadow: 3px 3px 4px #000;
+        text-transform: none;
+    }
+    .base-tomate-details span {
+        margin-left: 3px;
+    }
+    /*** new ***/
+    h3.sidebar-title {
+        padding: 7px;
+        margin-left: -158px !important;
+        margin-top: 157px !important;
+        height: 35px;
+        font-size: 20px;
+    }
+    .base-tomate-details, .speciales-details, .creme-fraiche-details {
+        padding: 40px 10px;
+    }
+    .base-tomate-details h4, .speciales-details h4, .creme-fraiche-details h4 {
+        font-size: 15px;
+    }
+    .base-tomate-details span, .speciales-details span, .creme-fraiche-details span {
+        font-size: 14px;
+    }
+    .base-tomate-title h2.pcsp-section-title, .speciales-title h2.pcsp-section-title, .creme-fraiche-title h2.pcsp-section-title {
+        border-radius: 50px 20px;
+        box-shadow: unset;
+        margin-bottom: 15px;
+    }
+    .base-tomate-price-content, .speciales-price-content, .creme-fraiche-price-content {
+        padding: 13px 0;
+    }
+    .common-bg {
+        border-top-right-radius: unset;
+    }
+    .common-bg::after {
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        position: absolute;
+        z-index: -2;
+        opacity: 0.3;
+        border-bottom-left-radius: 25px;
+    }
+    .creme-fraiche-bg::after {
+        background: #f00;
+    }
+    .speciales-extra {
+        padding: 35px;
+    }
+    .speciales-extra h4 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .round-price-tag {
+        padding: 5px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
